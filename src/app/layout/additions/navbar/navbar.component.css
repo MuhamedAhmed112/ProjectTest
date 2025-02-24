@@ -1,0 +1,15 @@
+.bg-body-tertiary {
+   background-color: #272727 !important;
+}
+.colors a{
+    color: white;
+}
+.loginbutton{
+    background-color: #89CFF0 !important;
+    
+    height: 30px;
+}
+.icon1{
+    color: #03b57b;
+    font-size: larger;
+}
