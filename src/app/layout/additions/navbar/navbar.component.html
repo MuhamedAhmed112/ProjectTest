@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary  position-fixed   z-3 w-100"   >
+<nav class="navbar navbar-expand-lg bg-info  position-fixed   z-3 w-100"   >
     <div class="container">
       <div class="d-flex align-items-center  ">
-        <a class="navbar-brand " d  ><i class="fa-solid   fa-heart-pulse icon1" ></i></a>
-        <a class="nav-link "routerLink="home"> <h5 class="text-white mt-1 glowing-text  ">CUREFUSION</h5></a>
+        <a class="navbar-brand " d  ><i class="fa-solid   fa-heart-pulse text-white" ></i></a>
+        <a class="nav-link " routerLink="home"> <h5 class="text-white mt-1 glowing-text  ">CUREFUSION</h5></a>
       </div>
       
       <button class="navbar-toggler mb-2 bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,14 +11,14 @@
       
       <div class="collapse navbar-collapse justify-content-between " id="navbarSupportedContent">
         <form class="d-flex align-items-center ms-2 bg-white rounded-5 " role="search">
-          <i class="fa-solid fa-magnifying-glass position-relative ms-2 text-black"></i>
+          <i class="fa-solid fa-magnifying-glass position-relative ms-2 text-info"></i>
           <input class="form-control me-2 shadow-none position-relative border-0  " type="search" placeholder="Search For Anything" aria-label="Search" >  
         </form>
         <div class="navbar-nav d-flex colors mt-1 align-items-center gap-1">
-          <a class="nav-link rounded-5  " routerLink="home" routerLinkActive="bg-success text-black ">Home</a>
-          <a class="nav-link rounded-5 " routerLink="medicines" routerLinkActive= "text-black  bg-success  ">Medicines</a>
-          <a class="nav-link rounded-5 " routerLink="careers" routerLinkActive="bg-success text-black  ">Carerrs</a>
-          <button class="btn btn-outline-dark loginbutton border-0  custom-btn text-white d-flex align-items-center ">Login/SignUp</button>
+          <a class="nav-link rounded-5  " routerLink="home" routerLinkActive="bg-white text-black ">Home</a>
+          <a class="nav-link rounded-5 " routerLink="medicines" routerLinkActive= "text-black  bg-white  ">Medicines</a>
+          <a class="nav-link rounded-5 " routerLink="careers" routerLinkActive="bg-white text-black  ">Carerrs</a>
+          <button  [routerLink]="'/signup'" class="btn btn-info bg-white loginbutton border-0  custom-btn t d-flex align-items-center ">Login/SignUp</button>
 
         </div>
      

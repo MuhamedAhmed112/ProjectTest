@@ -1,0 +1,13 @@
+.product-input input:focus+label{
+    top: 0 !important;
+   }
+   label{
+      transition: top 0.5s;
+   }
+    
+   .form-control:focus {
+  box-shadow: none;
+  
+   }
+   
+   
